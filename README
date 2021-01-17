@@ -1,0 +1,25 @@
+January 16, 2021
+Written by Kevin Chen and Joshua Li for Hack the North 2020++
+
+CREATING WORDBANKS
+------------------
+- create .txt file with an easily identifiable and typable name in the same directory as your program (you will be asked to type it whenever you want to use it)
+- words are separated by newlines, allowing for strings of words in one answer 
+- no symbols or accents 
+- program will automatically uppercase all text so do not worry about caps 
+- see examples for details 
+
+PLAYING THE GAME
+----------------
+- select the wordbank you want to use by entering the filename.txt 
+- choose the number of players/teams and give them a name. Can be played with 1 or more teams, but we don't recommend over like, 6 
+- take turns entering ONE LETTER into the console, if the letter is in the answer it will be added to the bottom, if not it will be placed with the incorrect letters and the hangman will be built
+- if you feel like you got it, enter ! into the console to take a guess of the word. Getting it right will grant a win but losing will build one piece of the hangman 
+- if no one can guess the word then the game ends and no one gets points
+- type yes after the game is over to continue with a new bank and keeping the teams and current scores
+- if you want the real authentic experience, play in the shared console of a VS code liveshare so that each person can directly input their choices, otherwise verbal instructions to one person is fine
+
+KNOWN ISSUES
+----------- 
+- entering multiple letters at once will buffer the next input which causes issues with team ordering 
+- if the entered .txt file does not exist or you mistyped it the program will quit, sorry! 
